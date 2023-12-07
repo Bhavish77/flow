@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T08:04:16.531Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="34fYVd8ylMQIRukIcagK" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T08:11:28.963Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dZUHkK7SllXLad6RnEQd" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1464" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,14 @@
         <mxCell id="8IEHx4uV2aPZDYNiBKdp-8" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="200" width="200" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="8IEHx4uV2aPZDYNiBKdp-22" value="1) listen for &quot;port&quot; event&lt;br&gt;2)receive data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8IEHx4uV2aPZDYNiBKdp-8">
+          <mxGeometry x="30" y="48" width="150" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="8IEHx4uV2aPZDYNiBKdp-9" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="200" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8IEHx4uV2aPZDYNiBKdp-21" value="1)Listen for an event&lt;br&gt;2)when that event happens&lt;br&gt;3)use postMessage fn&lt;br&gt;4)to send data to port1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8IEHx4uV2aPZDYNiBKdp-9">
+          <mxGeometry y="18" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8IEHx4uV2aPZDYNiBKdp-10" value="windowA(1st render process)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="168" width="180" height="30" as="geometry" />
@@ -66,6 +72,12 @@
         </mxCell>
         <mxCell id="8IEHx4uV2aPZDYNiBKdp-19" value="port1-port2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="258" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IEHx4uV2aPZDYNiBKdp-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8IEHx4uV2aPZDYNiBKdp-9" target="8IEHx4uV2aPZDYNiBKdp-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="430" as="sourcePoint" />
+            <mxPoint x="760" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
